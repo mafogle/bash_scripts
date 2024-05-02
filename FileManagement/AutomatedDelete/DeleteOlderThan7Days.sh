@@ -2,7 +2,7 @@
 #
 # Script: Bash Week Old file delete script
 # Created: 26/04/2024
-# Updated: 26/04/2024
+# Updated: 02/05/2024
 # Author: Matt Fogle
 # Website: https://github.com/mafogle
 # Email: matt@mattisawesome.ninja
