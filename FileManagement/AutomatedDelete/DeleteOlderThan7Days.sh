@@ -5,7 +5,7 @@
 # Updated: 02/05/2024
 # Author: Matt Fogle
 # Website: https://github.com/mafogle
-# Email: matt@mattisawesome.ninja
+# Email: matt@mattasaservice.com
 #
 # This is a simple script that scours a directory recursively and deletes files older than 7 days with matching
 # file extensions.
