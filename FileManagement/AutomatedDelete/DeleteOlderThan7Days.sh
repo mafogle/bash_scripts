@@ -24,10 +24,11 @@ dir="/$directory"
 # whitespace while finally executing the rm command with the -f option on the output. 
 
 
-find $dir -name "*.$fileExtensionType1" -type f -mtime +7 -print0 | xargs -0 rm -f
-find $dir -name "*.$fileExtensionType2" -type f -mtime +7 -print0 | xargs -0 rm -f
+find $dir -name "*.$fileExtensionType1" -type f -mtime +6 -print0 | xargs -0 rm -f
+find $dir -name "*.$fileExtensionType2" -type f -mtime +6 -print0 | xargs -0 rm -f
 
 # Additional usage information can be found at
+#
 # man find
 # man xargs
 # man rm
