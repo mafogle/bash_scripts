@@ -30,7 +30,7 @@ fi
 
 for i in $(eval echo {1..$filecount})
 do
-    head -c $(($RANDOM%max + $min))M </dev/urandom >/Matt-Test/scripts/BSfilecreator/BSfiles/BSfile$i
+    head -c $(($RANDOM%($max-$min+1)+$min))M </dev/urandom >/Matt-Test/scripts/BSfilecreator/BSfiles/BSfile$i
 done
 
 echo "All done, girly! Maybe I should have used /dev/zero to represent the data in my bank account." ; ls -lh BSfiles
