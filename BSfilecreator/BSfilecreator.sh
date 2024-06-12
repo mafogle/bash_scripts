@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Script: Bash Week Old file delete script
-# Created: 26/04/2024
-# Updated: 02/05/2024
+# Script: BSFileCreator
+# Created: 11/06/2024
+# Updated: 11/06/2024
 # Author: Matt Fogle
 # Website: https://github.com/mafogle
 # Email: matt@mattasaservice.com
